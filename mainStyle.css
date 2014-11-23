@@ -1,0 +1,96 @@
+nav > a{
+	font-size: 20px;
+}
+nav{
+	text-align:center;
+}
+
+.questionBox{
+	width:900px;
+	height:700px;
+	background-color:#E0F8F7;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	margin-bottom:35px;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td{
+	padding: 15px 20px;
+}
+.questionHeader{
+	height:150px;
+	font-size: 100px;
+	text-align: center;
+	vertical-align:middle;
+	text-decoration: underline;
+}
+
+.button{
+	height:125px;
+	width:200px;
+}
+label > input{/* HIDE RADIO */
+	visibility: hidden;
+	position: absolute;
+}
+label > input + img{/* IMAGE STYLES */
+	cursor:pointer;
+	border:2px solid transparent;
+}
+label > input:checked + img{/* (RADIO CHECKED) IMAGE STYLES */
+	border:2px solid black;
+}
+label > input + div{
+	cursor:pointer;
+	border:2px solid transparent;
+}
+label > input:checked + div{
+	border:2px solid black;
+}
+#gray{
+	background-color:silver;
+}
+#blue{
+	background-color:blue;
+}
+#yellow{
+	background-color:yellow
+}
+#green{
+	background-color:green;
+}
+#black{
+	background-color:black;
+}
+#white{
+	background-color:white;
+}
+#red{
+	background-color:red;
+}
+#purple{
+	background-color:purple;
+}
+#brown{
+	background-color:brown;
+}
+
+
+
+#palatino{
+	color: #333333;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+
+#questionOne{
+
+}
